@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./mycollection/./font/flaticon.css">
+     <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  
+  <section class="slider-section">
+
+            <div class="header-menu">
+                 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light slider-left">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><h1>Kerri</h1></a>
+  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto slider-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Serives</a></li>
+                            <li><a href="#">Client</a></li>
+                            <li><a href="#">Protfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+        
+            <div class="slider-text-items">
+
+                <div id="spiner">
+                    <div class="setting" onclick="show()">
+                     <i class="fas fa-cog"></i>
+                  </div>
+                     <span>Select Your Color</span>
+                   <ul>
+                      <li class="color1"></li>
+                      <li class="color2"></li>
+                      <li class="color3"></li>
+                      <li class="color4"></li>
+                      <li class="color5"></li>
+                      <li class="color6"></li>
+                  </ul>
+             
+                </div>
+
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-xl-3">  
+                        
+                         </div>
+                         <div class="col-xl-6">
+                              <div class="slider-content text-center">
+                                  <h4>Welcome</h4>
+                                  <h1>I'M <span class="type"></span></h1>
+                                  <p>It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                                  <a href="#" class="rounded-pill">DOWNLOAD CV</a>
+                                   <div class="slider-contetn-nis">
+                                    <span class="top-top rounded-pill"></span>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-xl-3"></div>
+                     </div>
+                 </div>
+            </div>
+  </section>  
+
+<section class="about-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5">
+                <div class="about-photo">
+                     <img class="img-thumbnail" src="./img/about.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-xl-7">
+                <div class="about-content">
+                     <h1><strong>About</strong> Me</h1>
+                     <h3>Hello! <b>I'M Kerri Deo.</b></h3>
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                     <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                     <ul class="d-flex">
+                         <li><a href="#"> <i class="fab fa-facebook"></i> </a></li> 
+                         <li><a href="#"> <i class="fab fa-twitter"></i> </a></li> 
+                         <li><a href="#"> <i class="fab fa-youtube"></i> </a></li> 
+                         <li><a href="#"> <i class="fab fa-instagram"></i> </a></li> 
+                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="serives-secion py-5 graybg">
+    <div class="container">
+        <div class="row">
+             <div class="serives-title text-center">
+                  <h1 class="mb-3">Our <b>Services</b></h1>
+                  <p class="text-muted">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+             </div>
+        
+        </div>
+
+        <div class="row my-5 py-5">
+
+
+            <div class="col-xl-4 mb-4">
+                 <div class="card text-center serives-box">
+                    <div class="card-body">
+                        <span><i class="flaticon-stats"></i></span>
+                        <h3>Graphic Design</h3>
+                        <span class="line"></span>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-xl-4 mb-4">
+                 <div class="card text-center serives-box">
+                    <div class="card-body">
+                        <span><i class="flaticon-coffee-cup"></i></span>
+                        <h3>Unlimited Color</h3>
+                        <span class="line"></span>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-xl-4 mb-4">
+                 <div class="card text-center serives-box">
+                    <div class="card-body">
+                        <span><i class="flaticon-cloud-computing"></i></span>
+                        <h3>Media Marketing</h3>
+                        <span class="line"></span>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-xl-4 mb-4">
+                 <div class="card text-center serives-box">
+                    <div class="card-body">
+                        <span><i class="flaticon-layers"></i></span>
+                        <h3>Unlimited Wifi</h3>
+                        <span class="line"></span>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-xl-4 mb-4">
+                 <div class="card text-center serives-box">
+                    <div class="card-body">
+                        <span><i class="flaticon-edit"></i></span>
+                        <h3>Responsive Design</h3>
+                        <span class="line"></span>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-xl-4 mb-4">
+                 <div class="card text-center serives-box">
+                    <div class="card-body">
+                        <span><i class="flaticon-browser"></i></span>
+                        <h3>Easy to customize</h3>
+                        <span class="line"></span>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+         
+    </div>
+</section>
+
+<section class="freelaching py-5 my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="freelanchingtt text-center">
+                    <h1 class="mb-3">I Am Available For Freelancer.</h1>
+                     <a href="#" class="btn btn-danger ">HIRE ME!</a>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="client-section py-5 graybg">
+    <div class="container">
+        <div class="row">
+            <div class="serives-title text-center">
+                <h1 class="mb-3">Our <b>Client</b></h1>
+                <p class="text-muted mb-5">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            </div>
+
+            <div class="col-xl-12">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators client-custom-btn">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active client-photot" data-bs-interval="10000">
+                          <span> <i class="flaticon-quote"></i> </span>
+                        <img src="./img/testi-1.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption client-text-title d-none d-md-block">
+                            <p>" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                          <h6>- Ebony verty,<b>Envato</b> </h6>
+                        </div>
+                      </div>
+                      <div class="carousel-item client-photot" data-bs-interval="2000">
+                        <span> <i class="flaticon-quote"></i> </span>
+                        <img src="./img/testi-2.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption client-text-title d-none d-md-block">
+                            <p>" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                          <h6>- Ebony verty,<b>Envato</b> </h6>
+                        </div>
+                      </div>
+                      <div class="carousel-item client-photot">
+                        <span> <i class="flaticon-quote"></i> </span>
+                        <img src="./img/testi-3.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption client-text-title d-none d-md-block">
+                            <p>" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                            <h6>- Ebony verty,<b>Envato</b> </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="work-section py-5 my-5">
+    <div class="container">
+      <div class="row">
+        <div class="serives-title text-center" data-aos="fade-left">
+            <h1 class="mb-3">Our <b>Work</b></h1>
+            <p class="text-muted mb-5">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+        </div>
+      </div>
+
+      <div class="row">
+           
+          <section class="work-section py-5 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="work-menu-horigentel">
+        
+                            <ul class="nav work-tabs-design justify-content-center  mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                   <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-home" aria-selected="true">
+                                       <h1>ALL</h1>
+                                   </a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                       <h1>SEO</h1>
+                                   </a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                       <h1>WEBSITE</h1>
+                                   </a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-four" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                       <h1>WEBSITE</h1>
+                                   </a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-five" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                       <h1>WORDPRESS</h1>
+                                   </a>
+                                 </li>
+                            
+                               </ul>
+        
+                               <div class="tab-content" id="pills-tabContent">
+                                 <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-home-tab">
+                                     <div class="work-items-tabs">
+                                         <div class="row">
+        
+                                            <div class="col-xl-4 mb-4">
+                                                <div class="work-items-box">
+                                                    <div class="work-img">
+                                                        <img src="./img/1.jpg" alt="">
+                                                    </div>
+                                                     <div class="work-text">
+                                                        <span>Catagory</span>
+                                                        <h5>Project Title</h5>
+                                                     </div>
+                                                </div>
+                                          </div>
+                                          <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box">
+                                                <div class="work-img">
+                                                    <img src="./img/2.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box">
+                                                <div class="work-img">
+                                                    <img src="./img/3.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4">
+                                            <div class="work-items-box">
+                                                <div class="work-img">
+                                                    <img src="./img/4.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4">
+                                            <div class="work-items-box">
+                                                <div class="work-img">
+                                                    <img src="./img/5.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4">
+                                            <div class="work-items-box">
+                                                <div class="work-img">
+                                                    <img src="./img/6.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                
+        
+        
+         
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-profile-tab">
+        
+                                    <div class="work-items-tabs">
+                                        <div class="row">
+                                            <div class="col-xl-4 mb-4" >
+                                                <div class="work-items-box left1" data-aos="fade-left">
+                                                    <div class="work-img">
+                                                        <img src="./img/1.jpg" alt="">
+                                                    </div>
+                                                     <div class="work-text">
+                                                        <span>Catagory</span>
+                                                        <h5>Project Title</h5>
+                                                     </div>
+                                                </div>
+                                          </div>
+                                          <div class="col-xl-4 mb-4"  data-aos="fade-left">
+                                            <div class="work-items-box left1">
+                                                <div class="work-img">
+                                                    <img src="./img/2.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box left2"  data-aos="fade-down">
+                                                <div class="work-img">
+                                                    <img src="./img/3.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+        
+                                        </div>
+                                    </div>
+                                     
+                                 </div>
+                                 <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-contact-tab">
+        
+                                    <div class="work-items-tabs">
+                                        <div class="row">
+                                            <div class="col-xl-4 mb-4">
+                                                <div class="work-items-box left1">
+                                                    <div class="work-img">
+                                                        <img src="./img/1.jpg" alt="">
+                                                    </div>
+                                                     <div class="work-text">
+                                                        <span>Catagory</span>
+                                                        <h5>Project Title</h5>
+                                                     </div>
+                                                </div>
+                                          </div>
+                                          <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box left2">
+                                                <div class="work-img">
+                                                    <img src="./img/2.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box left4">
+                                                <div class="work-img">
+                                                    <img src="./img/3.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4">
+                                            <div class="work-items-box left5">
+                                                <div class="work-img">
+                                                    <img src="./img/4.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4">
+                                            <div class="work-items-box left5">
+                                                <div class="work-img">
+                                                    <img src="./img/5.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+        
+                                        </div>
+                                    </div>
+        
+                                 </div>
+                                 <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                    <div class="work-items-tabs">
+                                        <div class="row">
+        
+                                            <div class="col-xl-4 mb-4">
+                                                <div class="work-items-box left5">
+                                                    <div class="work-img">
+                                                        <img src="./img/1.jpg" alt="">
+                                                    </div>
+                                                     <div class="work-text">
+                                                        <span>Catagory</span>
+                                                        <h5>Project Title</h5>
+                                                     </div>
+                                                </div>
+                                          </div>
+                                          <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box left5">
+                                                <div class="work-img">
+                                                    <img src="./img/2.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+         
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                    <div class="work-items-tabs">
+                                        <div class="row">
+        
+                                            <div class="col-xl-4 mb-4">
+                                                <div class="work-items-box">
+                                                    <div class="work-img">
+                                                        <img src="./img/1.jpg" alt="">
+                                                    </div>
+                                                     <div class="work-text">
+                                                        <span>Catagory</span>
+                                                        <h5>Project Title</h5>
+                                                     </div>
+                                                </div>
+                                          </div>
+                                          <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box b6">
+                                                <div class="work-img">
+                                                    <img src="./img/2.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+                                
+                                      <div class="col-xl-4 mb-4">
+                                            <div class="work-items-box">
+                                                <div class="work-img">
+                                                    <img src="./img/3.jpg" alt="">
+                                                </div>
+                                                 <div class="work-text">
+                                                    <span>Catagory</span>
+                                                    <h5>Project Title</h5>
+                                                 </div>
+                                            </div>
+                                      </div>
+         
+                                        </div>
+                                    </div>
+                                 </div>
+                             
+        
+                               </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+      </div>
+
+    </div>
+</section>
+
+<section class="blog-section py-5 my-5 graybg">
+    <div class="container">
+        <div class="row py-5">
+            <div class="serives-title text-center">
+                <h1 class="mb-3">Our <b>Blog</b></h1>
+                <p class="text-muted mb-5">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            
+            <div class="col-xl-4">
+                 <div class="blog-box">
+                      <div class="blog-photo">
+                          <img class="rounded" src="./img/blog-1.jpg" alt="">
+                          <h4>There are many variations</h4>
+                      </div>
+                      <div class="blog-text-content">
+                         <p>11 March 2018 <strong>By Kerri</strong></p>
+                         <p>Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+                         <a href="#">Read More...</a>
+                      </div>
+                 </div>
+            </div>
+
+            <div class="col-xl-4">
+                 <div class="blog-box">
+                      <div class="blog-photo">
+                          <img class="rounded" src="./img/blog-2.jpg" alt="">
+                          <h4>There are many variations</h4>
+                      </div>
+                      <div class="blog-text-content">
+                         <p>11 March 2018 <strong>By Kerri</strong></p>
+                         <p>Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+                         <a href="#">Read More...</a>
+                      </div>
+                 </div>
+            </div>
+
+            <div class="col-xl-4">
+                 <div class="blog-box">
+                      <div class="blog-photo">
+                          <img class="rounded" src="./img/blog-3.jpg" alt="">
+                          <h4>There are many variations</h4>
+                      </div>
+                      <div class="blog-text-content">
+                         <p>11 March 2018 <strong>By Kerri</strong></p>
+                         <p>Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+                         <a href="#">Read More...</a>
+                      </div>
+                 </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<section class="contact-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="serives-title text-center">
+                <h1 class="mb-3"><b>Contact</b>  Our</h1>
+                <p class="text-muted mb-5">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            
+            <div class="col-xl-4">
+                <div class="contact-items text-center">
+                     <span><i class="flaticon-mobile-phone"></i></span>
+                     <h5>Call Us On</h5>
+                     <a href="tel:+985 123 7856">+985 123 7856</a>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="contact-items text-center">
+                     <span><i class="flaticon-letter"></i></span>
+                     <h5>Email Us At</h5>
+                     <a href="mailto:Website.Kerri@gmail.com">Website.Kerri@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="contact-items text-center">
+                     <span><i class="flaticon-pin"></i></span>
+                     <h5>Visit Office</h5>
+                     <a href="#">202, Grasselli Street , Conway.</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-xl-12">
+                 <div class="contact-form">
+                    <div class="row">
+                        <div class="col mb-3">
+                          <input type="text" class="form-control" placeholder="Your Name*" aria-label="First name">
+                        </div>
+                        <div class="col mb-3">
+                          <input type="email" class="form-control" placeholder="Your Email*" aria-label="Last name">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <input name="" class="form-control" type="text" placeholder="Your Subject..." >
+                          </div>
+                        <div class="col-12 mb-3">
+                            <textarea name="" class="form-control" type="text" placeholder="Your Message" ></textarea>
+                          </div>
+                          <div class="contact-btn text-end">
+                               <a href="#" class="btn btn-danger">SENT MESSAGE</a>
+                          </div>
+                      </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer-section py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               <div class="footer-top">
+                   <ul>
+                       <li><a href="#"> <i class="fab fa-facebook"></i> </a></li>
+                       <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
+                       <li><a href="#"> <i class="fab fa-instagram"></i> </a></li>
+                       <li><a href="#"> <i class="fab fa-pinterest-p"></i></a></li>
+                   </ul>
+               </div>
+               <div class="footer-bottom text-center text-white">
+                   <p>2018 - 2020 © Kerri. Design by SRBThemes.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script>
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <!-- aso -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init(
+       {
+        offset:300,
+        duration:1000,
+       }
+     );
+   </script>
+   <!-- aso end-->
+   <!-- type -->
+     <script src="./typed.js-master/./lib/typed.min.js"></script>
+     <script>
+          var typed = new Typed('.type', {
+          strings: [
+              'A Photographer.',
+               'Kerri Deo.',
+               'A Graphic Designer.'
+               ],
+               typeSpeed:60,
+               backSpeed:60,
+               loop:60,
+           });
+     </script>
+   <!-- type end-->
+   <!-- new -->
+   <script>
+       function show() {
+
+           document.getElementById('spiner').classList.toggle('active');
+       }
+   </script>
+   <!-- new end -->
+  </body>
+</html>

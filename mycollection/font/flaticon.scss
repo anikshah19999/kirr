@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?1e832325b6b6444256c120a45a5898db") format("truetype"),
+url("./flaticon.woff?1e832325b6b6444256c120a45a5898db") format("woff"),
+url("./flaticon.woff2?1e832325b6b6444256c120a45a5898db") format("woff2"),
+url("./flaticon.eot?1e832325b6b6444256c120a45a5898db#iefix") format("embedded-opentype"),
+url("./flaticon.svg?1e832325b6b6444256c120a45a5898db#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "letter": "\f101",
+    "quote": "\f102",
+    "layers": "\f103",
+    "cloud-computing": "\f104",
+    "stats": "\f105",
+    "coffee-cup": "\f106",
+    "browser": "\f107",
+    "edit": "\f108",
+    "mobile-phone": "\f109",
+    "pin": "\f10a",
+);
+
+.flaticon-letter:before {
+    content: map-get($flaticon-map, "letter");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-cloud-computing:before {
+    content: map-get($flaticon-map, "cloud-computing");
+}
+.flaticon-stats:before {
+    content: map-get($flaticon-map, "stats");
+}
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon-map, "coffee-cup");
+}
+.flaticon-browser:before {
+    content: map-get($flaticon-map, "browser");
+}
+.flaticon-edit:before {
+    content: map-get($flaticon-map, "edit");
+}
+.flaticon-mobile-phone:before {
+    content: map-get($flaticon-map, "mobile-phone");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
